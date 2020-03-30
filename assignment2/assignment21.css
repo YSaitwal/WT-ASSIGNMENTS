@@ -1,0 +1,41 @@
+#r1
+{
+	background-color: green;
+	color: white;
+	text-align: center;
+}
+#r2
+{
+	background-color: grey;
+	color: white;
+	text-align: center;
+}
+#r3
+{
+	background-color: green;
+	color: white;
+	text-align: center;
+}
+#r4
+{
+	background-color: grey;
+	color: white;
+	text-align: center;
+}
+.table1
+{
+	width: 70%;
+	height: 400px;
+	border: 1;
+}
+
+#tour
+{
+	font-size: 20px;
+	font-style: italic;
+	color: orange;
+}
+#literature
+{
+	color:orange;
+}

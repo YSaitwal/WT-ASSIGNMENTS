@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="assignment41.css">
+    </head>
+    
+    <body>
+        <form >
+        <fieldset>
+                <legend align="center">FORM</legend>
+            First Name:
+            <input type="text" placeholder="Enter Name" id="firstname" onblur="myFunction()"><br>
+            Last Name:
+            <input type="text" placeholder="Enter Last Name" id="lastname" onblur="myFunction1()"><br>
+            Email Id:
+            <input type="email" placeholder="Enter Email" id="emailid"><br>
+            Mobile no:
+			<input type="number" name="number" placeholder="Number" required><br>
+            Gender:<br><br>
+            Male:
+            <input type="radio" id="gender" name="gender">
+            Female:
+            <input type="radio" id="gender" name="gender"><br><br>
+            Country:
+            <select id="country">
+                <option value="India">India</option>
+                <option value="NAmerica">North America</option>
+                <option value="Afria">Africa</option>
+                <option value="Russia">Russia</option>
+              </select><br>
+            State:
+            <select id="state">
+                <option value="Gujarat">Gujarat</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+              </select><br>
+            City:
+            <input type="text" placeholder="Enter City Name" id="city"><br>
+            Password:
+            <input type="password" id="password"><br>
+            
+            <input type="Submit" id="submit" value="Submit">
+        </fieldset>    
+        </form>
+
+        <script>
+            function myFunction() 
+            {
+                var x = document.getElementById("firstname");
+                x.value = x.value.toUpperCase();
+            }
+
+            function myFunction1() 
+            {
+                var x = document.getElementById("lastname");
+                x.value = x.value.toUpperCase();
+            }
+        </script>
+
+    </body>
+</html>
